@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description=" content="Empresa dedicada a ofrecer regalos con venta ONLINE, Cajas ideadas para sorprender en cumpleaños, aniversarios y en todo momento">
+    <meta name="keywords"  content="Natural, Frutas, verduras, sano, salud, saludable">
+    <title>El Bolson. Frutas y verduras para vos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Glory:wght@200&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="flexitems"><a href="index.html"><img class="logo" src="logo.png" alt="El Bolson"></a></div>
+        <div class="contenedorDerecho">
+            <div class="flexitems"><a class="a" href="index.html">Home</a></div>
+            <div class ="flexitems"><a class="a" href="nosotros.html">Nosotros</a></div>
+            <div class ="flexitems"><a class="a" href="preferencias.html">Preferencias</a></div>
+            <div class ="flexitems"><a class="a" href="productos.html">Productos</a></div>
+            <div class ="flexitems"><a class="a" href="contacto.html">Pedido</a></div>
+                       
+        </div>
+    </div>
+    <main class="container">
+        <br>
+        <br>
+		<h2>Gracias por contactarnos</h2>
+
+        <div id="caja">
+		<form name="rellenar" action="#" >
+			<h2>Generador de Pedidos</h2>
+   <p> Nombre: <input name="titulo" type="text"/> </p>
+   <p> Direccion: <input name="direccion" type="text"/> </p> 
+   <p> Telefono: <input name="telefono" type="text"/> </p> 
+   
+   <p> Que Queres Pedir? </p>
+    <select class="form-select" name="pedido" id="pedido">
+        <option value="seleccione" selected disabled>- Seleccione -</option>
+        <option value="Frutas">Frutas</option>
+        <option value="Verduras">Verduras</option>
+        <option value="Frutas y Verduras">Frutas y Verduras</option>
+    </select>
+    <p> En que horario te entregamos? </p>
+    <select class="form-select" name="horario" id="horario">
+        <option value="seleccione" selected disabled>- A que hora te lo llevamos? -</option>
+        <option value="mañana">A la mañana</option>
+        <option value="tarde">A la tarde</option>
+        <option value="noche">A la noche</option>
+    </select>
+    
+   <p>Aclaraciones</p>
+   <p><textarea name="texto"></textarea></p>
+   <p><input name="ver" type="button" value="Enviar" />
+</form>
+</div>
+</main>
+
+<script src="eventos2.js">
+</script>
+
+</body>
+</html>
